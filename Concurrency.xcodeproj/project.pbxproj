@@ -46,6 +46,8 @@
 		01856E23177CAEA5001FBB6D /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 01856E22177CAEA5001FBB6D /* ViewUtils.m */; };
 		01A657DB188FC8580060550D /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A657DA188FC8580060550D /* Settings.m */; };
 		01E7EDB718292E750083F979 /* Currencies.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01E7ECBB18292E740083F979 /* Currencies.plist */; };
+		59C82F791BF629ED00DCE49D /* AnObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C82F781BF629ED00DCE49D /* AnObject.m */; };
+		59C82F7C1BF62A0F00DCE49D /* Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C82F7B1BF62A0F00DCE49D /* Swizzle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +117,10 @@
 		01A657D9188FC8580060550D /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
 		01A657DA188FC8580060550D /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 		01E7ECBB18292E740083F979 /* Currencies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Currencies.plist; sourceTree = "<group>"; };
+		59C82F771BF629ED00DCE49D /* AnObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnObject.h; sourceTree = "<group>"; };
+		59C82F781BF629ED00DCE49D /* AnObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnObject.m; sourceTree = "<group>"; };
+		59C82F7A1BF62A0F00DCE49D /* Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swizzle.h; sourceTree = "<group>"; };
+		59C82F7B1BF62A0F00DCE49D /* Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swizzle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +269,10 @@
 				01414E321884384F001AC4E7 /* iVersion.bundle */,
 				01414E331884384F001AC4E7 /* iVersion.h */,
 				01414E341884384F001AC4E7 /* iVersion.m */,
+				59C82F7A1BF62A0F00DCE49D /* Swizzle.h */,
+				59C82F7B1BF62A0F00DCE49D /* Swizzle.m */,
+				59C82F771BF629ED00DCE49D /* AnObject.h */,
+				59C82F781BF629ED00DCE49D /* AnObject.m */,
 			);
 			path = iVersion;
 			sourceTree = "<group>";
@@ -438,8 +448,10 @@
 				01A657DB188FC8580060550D /* Settings.m in Sources */,
 				016EA7311875E1DD0005FADC /* CubeController+Wiggle.m in Sources */,
 				016EA73818771FF50005FADC /* UIView+TintColor.m in Sources */,
+				59C82F791BF629ED00DCE49D /* AnObject.m in Sources */,
 				01414E361884384F001AC4E7 /* iVersion.m in Sources */,
 				018151A117816AC100BB4970 /* CurrencyCell.m in Sources */,
+				59C82F7C1BF62A0F00DCE49D /* Swizzle.m in Sources */,
 				016EA73D187723B40005FADC /* SearchBar.m in Sources */,
 				0149D7C4177C24C900884EB3 /* BaseModel.m in Sources */,
 				01856E1B177CAD3D001FBB6D /* PickerView.m in Sources */,
